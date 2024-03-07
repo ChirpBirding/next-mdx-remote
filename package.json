@@ -6,6 +6,7 @@
   "bugs": {
     "url": "https://github.com/hashicorp/next-mdx-remote/issues"
   },
+  "type": "module",
   "exports": {
     ".": {
       "import": "./dist/index.js",

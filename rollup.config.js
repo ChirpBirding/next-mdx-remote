@@ -142,7 +142,6 @@ export default [
       ts({
         tsconfig: './tsconfig.json',
         declaration: false,
-        declarationDir: './dist',
         exclude: ['./__tests__/**/*'],
       }),
       json(),
@@ -161,7 +160,6 @@ export default [
       ts({
         tsconfig: './tsconfig.json',
         declaration: false,
-        declarationDir: './dist',
         exclude: ['./__tests__/**/*'],
       }),
       json(),
